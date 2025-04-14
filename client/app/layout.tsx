@@ -24,12 +24,12 @@ export const metadata: Metadata = {
     description:
       'Quality craftsmanship and professional service for your home improvement projects. Serving your neighborhood with pride.',
     url: 'https://handymanpro.com',
-    siteName: 'HandyPro',
+    siteName: 'HandymanPro',
     locale: 'en_US',
     type: 'website',
     images: [
       {
-        url: 'https://handymanpro.com',
+        url: 'https://handymanpro.com/og-image.png',
         width: 1200,
         height: 630,
         alt: 'Handyman at work with tools',
