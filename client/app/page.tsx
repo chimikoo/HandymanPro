@@ -1,3 +1,5 @@
+export const revalidate = 0
+
 import { sanityClient } from '@/lib/sanity.client'
 import {
   aboutQuery,
