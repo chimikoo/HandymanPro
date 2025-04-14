@@ -1,7 +1,7 @@
 import { Card, Flex, Text } from '@sanity/ui'
 import { useCallback } from 'react'
 import { set, unset } from 'sanity'
-import { iconList } from '../lib/iconMap'
+import { iconList } from '../lib/iconMap.jsx'
 import React from 'react'
 
 
