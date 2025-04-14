@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     type: 'website',
     images: [
       {
-        url: 'https://handyman-pro-sand.vercel.app/og-image.png/og-image.png',
+        url: 'https://handyman-pro-sand.vercel.app/og-image.png',
         width: 1200,
         height: 630,
         alt: 'Handyman at work with tools',
