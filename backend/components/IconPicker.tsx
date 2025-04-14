@@ -1,11 +1,11 @@
 import { Card, Flex, Text } from '@sanity/ui'
 import { useCallback } from 'react'
 import { set, unset } from 'sanity'
-import { iconMap } from '../../client/app/lib/iconMap'
+import { iconList } from '../lib/iconMap'
 import React from 'react'
 
 
-const icons = Object.keys(iconMap)
+const icons = Object.keys(iconList)
 
 export default function IconPicker({ value, onChange }: any) {
   const handleClick = useCallback(
@@ -31,7 +31,7 @@ export default function IconPicker({ value, onChange }: any) {
           onClick={() => handleClick(name)}
           style={{ cursor: 'pointer', textAlign: 'center' }}
         >
-          {iconMap[name]}
+          {iconList[name]}
           <Text size={1}>{name}</Text>
         </Card>
       ))}
